@@ -1,0 +1,19 @@
+{
+  "name": "webapi",
+  "description": "A simple webapi without frameworks explained by Erick Wendel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Gustavo Manca",
+    "email": "gustavo.mancaa@gmail.com"
+  },
+  "scripts": {
+    "test": "sh script.sh",
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
